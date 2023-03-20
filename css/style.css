@@ -1,6 +1,44 @@
-h2 {
-    font-family: Raleway sans-scrif;
+/* ================================================
+    Default Theme
+    -----------------------------------------------
+    Fonts: Raleway, Open Sans
+    -----------------------------------------------
+    Colors:
+            Moon Yellow:    #f4c613
+            Grey:           #212226
+            White Smoke:    #f4f4f4
+            White:          #fff
+            Black:          #000
+===================================================
+*/
+
+/* ================================================
+                    HTML, Body
+===================================================
+*/
+html, body{
+    height: 100%;
 }
+body{
+    color: #212226;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: "Raleway", sans-serif;
+}
+
+p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+section{
+    background: #fff;
+    overflow: hidden;
+}
+
+
 
 /* ================================================
                     Preloader
@@ -34,6 +72,11 @@ h2 {
 ===================================================
 */
 
+#home{
+    background: none;
+    height: 100%;
+}
+
 #home-bg-video {
     position: fixed;
     top: 50%;
@@ -58,3 +101,183 @@ top: 0;
 left: 0;
 z-index: -1;
 }
+
+#home-content{
+    height: 100%;
+    width: 100%;
+    display: table;
+}
+
+#home-content-inner{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#home-heading h1{
+    color: #fff;
+    font-size: 65px;
+    font-weight: 100;
+    text-transform: uppercase;
+    display: inline-block;
+    margin: 0;
+}
+
+#home-heading h1 span{
+    color: #f4c613;
+    font-weight: 500;
+    padding-left: 10px;
+}
+
+#home-text p{
+    color: #fff;
+    margin: 8px 0 30px 0;
+    font-weight: 100;
+    font-size: 17px;
+}
+
+.btn-general{
+    font-family: "Raleway", sans-serif;
+    border: 1px solid #fff;
+    border-radius: 28px;
+    padding: 4px 20px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin: 0 6px;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+}
+
+.btn-home:hover, .btn-general:focus{
+    color: #fff;
+    background-color: #f4c613;
+    border: 1px solid #f4c613;
+}
+
+#arrow-down {
+	position: absolute;
+	left: 50%;
+	bottom: 20px;
+	color: #fff;
+	font-size: 20px;
+	width: 32px;
+	height: 32px;
+	margin-left: -16px;
+	text-align: center;
+	z-index: 1;
+}
+
+#arrow-down:hover, #arrow-down:focus{
+    color: #f4c613;
+}
+
+/* ===============================================
+                    About
+===================================================
+*/
+
+/* Content Boxes */
+
+.content-box-lg{
+    padding: 120px 0;
+}
+
+.content-box-md{
+    padding: 100px 0;
+
+}
+
+
+/* ================================
+            Vertical Heading
+==================================*/
+.vertical-heading h5{
+    color: #f4c613;
+    font-size: 14px;
+    font-weight: 100;
+    text-transform: uppercase;
+    word-spacing: 9px;
+    display: inline-block;
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    position: relative;
+    left: -60px;
+    top: 55px;
+}
+
+.vertical-heading h2{
+    padding: 0 0 0 30px;
+    font-size: 42px;
+    font-weight: 100;
+    line-height: 50px;
+}
+
+
+/* ==========================================================
+                            Abpit 01
+=============================================================*/
+
+.about-right p:first-child{
+    margin-bottom: 30px;
+}
+#about-bottom{
+    margin-top: 30px;
+}
+#about-bottom img{
+    margin: 0 auto;
+}
+
+
+/* =========================================================
+                        About 02
+============================================================*/
+
+#about-02{
+    background-color: #f4f4f4;
+}
+.about-item{
+    background-color: #fff;
+    padding: 80px 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-item i{
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+.about-item hr{
+    width: 45px;
+    height: 3px;
+    background-color: #f4c613;
+    margin: 0 auto;
+    border: none;
+}
+
+.about-item p{
+    margin-top: 20px;
+}
+
+.about-item:hover{
+    background-color: #f4c613;
+}
+
+.about-item:hover p,
+.about-item:hover i,
+.about-item:hover h3{
+    color: #fff;
+}
+
+.about-item:hover hr{
+    background-color: #fff;
+}
+
+.about-item:hover i{
+    transform: translateY(-10px);
+}
+
+.about-item{
+    -webkit-transition: all 400ms ease-in-out;
+    transition: all 400ms ease-in-out;
+}
+
