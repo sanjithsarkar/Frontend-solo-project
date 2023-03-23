@@ -7,18 +7,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
+
+
     <link rel="stylesheet" href="css/font-awesome/css/all.min.css">
 
     <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
 
+    <!-------------- google font ------------------ -->
     <link
         href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
 
+    <!--------------------------  Main CSS  ----------------------->
     <link rel="stylesheet" href="css/style.css">
 
-    <!-- JQuery js -->
+
+    <!------------------------------ Owl Carousel  ------------------------->
+    <link rel="stylesheet" href="css/owl-carousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl-carousel/owl.theme.default.min.css">
+
+
+    <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script> -->
+
+        <!-- JQuery js -->
     <script src="js/jquery.js"></script>
+
+    <!-------------- Waypoints  --------------->
+    <script src="js/waypoints/jquery.waypoints.min.js"></script>
+
+   
+
+
 </head>
 
 <body>
@@ -159,14 +179,198 @@
         <!-- End About 02 -->
     </section>
 
+    <!----------------- End About ----------------->
+
+
+    <!------------------ Team --------------------->
+
+    <section>
+        <div class="content-box-lg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="team-left">
+                            <div class="vertical-heading">
+                                <h5>Who We Are</h5>
+                                <h2>Meet Our <br><strong>Talented</strong>Team</h2>
+                            </div>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has been the industry's standard dummy text ever since the 1500s, when an unknown
+                                printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div id="team-members" class="owl-carousel owl-theme">
+
+                            <!------------ Team 01 ------------->
+                            <div class="team-member text-center">
+                                <img src="image/team/team-1.jpg" class="rounded" alt="No Image">
+
+                                <div class="team-member-overlay">
+                                    <div class="team-member-info">
+                                        <h6>Kevin Greer</h6>
+                                        <p>Web Designer</p>
+
+                                        <ul class="social-list">
+                                            <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                            <li><a href="#"><i class="fa-brands fa-google-plus-g"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!----------- Team 02 ----------->
+                            <div class="team-member text-center">
+                                <img src="image/team/team-2.jpg" class="rounded" alt="No Image">
+
+                                <div class="team-member-overlay">
+                                    <div class="team-member-info text-center">
+                                        <h6>Kevin Greer</h6>
+                                        <p>Web Designer</p>
+
+                                        <ul class="social-list">
+                                            <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                            <li><a href="#"><i class="fa-brands fa-google-plus-g"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <!---------------Team 03  ----------------->
+                            <div class="team-member text-center">
+                                <img src="image/team/team-3.jpg" class="rounded" alt="No Image">
+
+                                <div class="team-member-overlay">
+                                    <div class="team-member-info text-center">
+                                        <h6>Kevin Greer</h6>
+                                        <p>Web Designer</p>
+
+                                        <ul class="social-list">
+                                            <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                            <li><a href="#"><i class="fa-brands fa-google-plus-g"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <!---------------- Team 04  ---------------->
+                            <div class="team-member text-center">
+                                <img src="image/team/team-4.jpg" class="rounded" alt="No Image">
+
+                                <div class="team-member-overlay">
+                                    <div class="team-member-info text-center">
+                                        <h6>Kevin Greer</h6>
+                                        <p>Web Designer</p>
+
+                                        <ul class="social-list">
+                                            <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                            <li><a href="#"><i class="fa-brands fa-google-plus-g"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div id="message-alert"></div>
+
+                <div id="progress-elements" class="progressElement">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="skill">
+                                <h4>Web Design</h4>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-label="Example with label"
+                                        style="width: 0%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                                        <span>90%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="skill">
+                                <h4>Photoshop/Illustration</h4>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-label="Example with label"
+                                        style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                                        <span>95%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="skill">
+                                <h4>Web Development</h4>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-label="Example with label"
+                                        style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                                        <span>85%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="skill">
+                                <h4>Digital Marketing</h4>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-label="Example with label"
+                                        style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                                        <span>90%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!------------------- End Team ----------------->
+
+
+
+
+    <!-- <section><br> <br> <br><br><br><br><br><br><br><br><br><br> <br> <br><br><br><br><br><br><br><br><br><br> <br>
+        <br><br><br><br><br><br><br><br><br><br> <br> <br><br><br><br><br><br><br><br><br><br> <br>
+        <br><br><br><br><br><br><br><br><br>
+    </section> -->
+
 
     <!-- Custom js -->
     <script src="js/script.js"></script>
 
+
     <!-- <script src="js/font-awesome/js/fontawesome.min.js"></script> -->
 
 
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js" integrity="sha512-fHXRw0CXruAoINU11+hgqYvY/PcsOWzmj0QmcSOtjlJcqITbPyypc8cYpidjPurWpCnlB8VKfRwx6PIpASCUkQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+
+    <!-------------- Waypoints  --------------->
+    <!-- <script src="js/waypoints/jquery.waypoints.min.js"></script> -->
+
+
+    <!-- <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script> -->
+
+
+    <!--------------------  Bootstrap js  --------------------->
     <script src="js/bootstrap/js/bootstrap.min.js"></script>
+
+    <!---------------------- Owl Carousel  --------------------------->
+    <script src="js/jquery.js"></script>
+    <script src="js/owl-carousel/owl.carousel.min.js"></script>
+
+
 </body>
 
 </html>
