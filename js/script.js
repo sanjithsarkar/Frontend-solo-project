@@ -49,6 +49,15 @@ $(".progressElement").waypoint(function() {
 // })
 
 
+// ===========================================
+//                Service Tabs
+//============================================
+
+$('#service-tabs').responsiveTabs({
+    startCollapsed: 'accordion'
+});
+
+
 
 
 
