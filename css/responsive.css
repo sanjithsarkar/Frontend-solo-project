@@ -5,7 +5,7 @@
 /* Large Devices (Desktop & Laptops) */
 @media (min-width: 1200px) {
     #home-heading h1 {
-        color: red;
+        color: #fff;
     }
 }
 
