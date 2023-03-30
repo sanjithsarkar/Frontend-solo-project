@@ -76,6 +76,19 @@ section {
 }
 
 /* ================================================
+                 Header Navigation
+===================================================
+*/
+
+#navbarNav ul li a.active {
+    color: #f4c613 !important;
+}
+
+/* .nav-link.text-light.smooth-scroll.active {
+	color: yellow !important;
+} */
+
+/* ================================================
                     Home
 ===================================================
 */
@@ -198,13 +211,13 @@ section {
 }
 
 
-/* ================================
+/* ============================================
             Vertical Heading
-==================================*/
+===============================================*/
 .vertical-heading h5 {
     color: #f4c613;
     font-size: 14px;
-    font-weight: 100;
+    font-weight: 400;
     text-transform: uppercase;
     word-spacing: 9px;
     display: inline-block;
@@ -289,9 +302,14 @@ section {
     transform: translateY(-10px);
 }
 
-.about-item {
+/* .about-item {
     -webkit-transition: all 400ms ease-in-out;
     transition: all 400ms ease-in-out;
+} */
+
+.about-item:hover p, .about-item:hover i, .about-item:hover h3 {
+	color: #fff;
+	transition: all 400ms ease-in-out;
 }
 
 
@@ -485,13 +503,28 @@ ul.social-list li:nth-child(3) a:hover {
     background: #212226;
 }
 
+.service-image {
+	width: 100%;
+	height: 100%;
+	display: table;
+}
+
+.image {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.image img{
+    
+}
+
 .horizontal-heading {
     margin-bottom: 80px;
 }
 
 .horizontal-heading h5 {
     font-size: 14px;
-    color: yellow;
+    color: #f4c613;
     font-weight: 400;
     text-transform: uppercase;
     line-height: 20px;
@@ -579,11 +612,18 @@ ul.social-list li:nth-child(3) a:hover {
     transition: border-color 300ms linear;
 }
 
+
+.service-tab-image img {
+	width: 100%;
+	margin: 0 auto;
+}
+
 .service-tab-right {
 	height: 100%;
 	width: 100%;
 	display: table;
-	padding: 0px 20px;
+	padding: 0 35px;
+	background: #fff;
 }
 
 .service-tab-bg {
@@ -624,6 +664,61 @@ ul.social-list li:nth-child(3) a:hover {
     border: 1px solid #f4c613;
 }
 
-.rounded.service-image {
-	padding-left: 25px;
+.nav-link:hover {
+    color: #f4c613 !important;
+}
+
+
+/* #return-to-top {
+	padding-right: 15px;
+	position: fixed;
+	bottom: 70px;
+	color: #717981;
+}
+
+#return-to-top:hover {
+	color: #040463;
+	transition: 1000ms linear;
+} */
+
+.btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 3px 15px;
+    font-size: 22px;
+}
+
+.btn-back-to-top:hover {
+    color: #f4c613;
+}
+
+
+/* ========================================================
+                    Animation
+===========================================================*/
+
+#home-heading-1{
+    animation-duration: 1.5s;
+    animation-delay: 1s;
+}
+
+#home-heading-2{
+    animation-duration: 1.5s;
+    animation-delay: 1.5s;
+}
+
+#home-text{
+    animation-duration: 1.5s;
+    animation-delay: 2s;
+}
+
+#home-btn{
+    animation-duration: 1.5s;
+    animation-delay: 2.5s;
+}
+
+#arrow-down{
+    animation-duration: 1.5s;
+    animation-delay: 3s;
 }
